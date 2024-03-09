@@ -1,0 +1,50 @@
+/* CSS styling for the webpage */
+
+/* Styling for h2 elements */
+h2 {
+    text-align: center;                 /* Center align text */
+    color: rgb(206, 44, 44);          /* Set text color */
+}
+
+/* Styling for h1 elements */
+h1 {
+    text-align: center;                 /* Center align text */
+    color: aliceblue;                  /* Set text color */
+}
+
+/* Styling for h3 elements */
+h3 {
+    text-align: center;                   /* Center align text */
+    color: rgb(14, 58, 94);             /* Set text color */
+}
+
+/* Styling for p elements */
+p {
+    color: rgb(184, 18, 95);             /* Set text color */
+}
+
+h4{
+    text-align: center;
+}
+
+/* Styling for the body of the webpage */
+body {
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png'); /* Set background image */
+    background-size: cover;                 /* Cover the entire background */
+    background-position: center;            /* Center the background image */
+    background-repeat: no-repeat;           /* Do not repeat the background image */
+}
+
+/* Styling for submit buttons */
+.submit-button {
+    display: block;                         /* Make the button a block element */
+    margin: 0 auto;                         /* Center the button horizontally */
+    background-color: burlywood;          /* Set background color */
+    color: brown;                         /* Set text color */
+    text-align: center;                     /* Center align text */
+}
+
+/* Hover effect for submit buttons */
+.submit-button:hover {
+    background-color: rgb(18, 139, 143);   /* Change background color on hover */
+}

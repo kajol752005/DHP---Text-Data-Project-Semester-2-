@@ -1,0 +1,48 @@
+/* CSS styling for the webpage */
+
+/* Styling for h1 elements */
+h1 {
+    text-align: center; /* Center align text */
+    color: rgb(229, 221, 185); /* Set text color */
+    background-color: rgb(16, 114, 128); /* Set background color */
+}
+
+/* Styling for h2 elements */
+h2 {
+    text-align: center; /* Center align text */
+    color: rgba(39, 106, 206); /* Set text color */
+}
+
+/* Styling for h3 elements */
+h3 {
+    color: rgb(39, 106, 206); /* Set text color */
+}
+
+/* Styling for h4 elements */
+h4 {
+    font-family: Calibri; /* Set font family */
+    text-align: left; /* Left align text */
+    color: rgba(110, 20, 98, 0.692); /* Set text color */
+    font-weight: bolder; /* Set font weight */
+}
+
+/* Styling for the body of the webpage */
+body {
+    background-image: url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Styling for moving text */
+.moving-text {
+    overflow: hidden; /* Hide overflow text */
+    white-space: nowrap; /* Prevent wrapping of text */
+    animation: marquee 15s linear backwards; /* Apply animation */
+}
+
+/* Keyframes for marquee animation */
+@keyframes marquee {
+    0% { transform: translateX(100%); } /* Initial position */
+    100% { transform: translateX(-100%); } /* Final position */
+}

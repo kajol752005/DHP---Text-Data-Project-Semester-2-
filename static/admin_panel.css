@@ -1,0 +1,15 @@
+/* CSS styling for the webpage */
+
+/* Styling for h1 elements */
+h1 {
+    text-align: center; /* Center align text */
+    color: rgb(238, 49, 87); /* Set text color */
+}
+
+/* Styling for the body of the webpage */
+body {
+    background-image: url('https://images.pexels.com/photos/1037995/pexels-photo-1037995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: repeat; /* Repeat the background image */
+}
