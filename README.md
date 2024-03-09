@@ -1,1 +1,1 @@
-# DHP---Text-Data-Project-Semester-2-
+The Flask Application is designed to take a news article URL from a user and clean it. It analyzes the news text for number of sentences, number of words, POS tags and other relevant information including the publication datetime, and other relevant news articles. It permits the admin to view the history of the submitted URLs through Google login.
