@@ -44,10 +44,10 @@ flow = Flow.from_client_secrets_file(client_secrets_file, scopes=scopes, redirec
 
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
-    dbname='dhp2024',
-    user='postgres',
-    password='POSTSQLkashi@0025',
-    host='localhost')
+    dbname='dhp2024_dqb4',
+    user='dhp2024_dqb4_user',
+    password='NDmWyNySiUG2JvvWdaXfPErQYPoM0Ghm',
+    host='dpg-cnmld6ev3ddc73fkespg-a')
 
 # Create a database cursor
 cur = conn.cursor()
