@@ -38,7 +38,7 @@ scopes = ['https://www.googleapis.com/auth/userinfo.profile',
           'openid']
 
 # Redirect URI for the OAuth flow
-redirect_uri = 'https://url-extractor-apoi.onrender.com/callback'
+redirect_uri = 'https://url-extractor-apoi.onrender.com/protected'
 
 # Create the OAuth flow object
 flow = Flow.from_client_secrets_file(client_secrets_file, scopes=scopes, redirect_uri=redirect_uri)
